@@ -1,0 +1,114 @@
+body, * {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+
+.container {
+  width: 1110px;
+  height: 100%;
+}
+
+.header-head {
+  margin: 20px;
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  width: 1110px;
+}
+
+#header {
+  height: 613px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../img/hero-pattern.svg");
+}
+
+#header .header-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header .header-body .header-body-text .header-body-text-head {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#header .header-body .header-body-text .header-body-text-content {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #fff;
+  margin-bottom: 40px;
+  opacity: 0.75;
+}
+
+#header .header-body .header-body-text .header-body-text-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .header-body .header-body-text .header-body-text-buttons .btn-dicovery .discovery {
+  width: 189px;
+  height: 58px;
+  background-color: transparent;
+  border: 1px solid white;
+  outline: white;
+  color: white;
+  border-radius: 100px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+#header .header-body .header-body-text .header-body-text-buttons .btn-dicovery .discovery:hover {
+  background-color: white;
+  color: black;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-animation: pulseWhite 1s ease-in-out;
+          animation: pulseWhite 1s ease-in-out;
+}
+
+#header .header-body .header-body-text .header-body-text-buttons .btn-read-more .readmore {
+  width: 158px;
+  height: 58px;
+  background-color: white;
+  border: 1px solid white;
+  outline: white;
+  color: black;
+  border-radius: 100px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#header .header-body .header-body-text .header-body-text-buttons .btn-read-more .readmore:hover {
+  background-color: transparent;
+  color: white;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+/*# sourceMappingURL=style.css.map */
