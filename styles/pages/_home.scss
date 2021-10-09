@@ -82,3 +82,53 @@
            
         
     }
+    #awe-f{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        .container{
+            
+            .awesome-features{
+                display: flex;
+            align-items: center;
+            justify-content: center;
+                .awe-f-header{
+                
+                    .awe-f-head{
+                        display: flex;
+                        justify-content: center;
+                        font-size: 36px;
+                        font-weight: bolder;
+                      
+                        span{
+                            color: #5268f2;
+                            margin-left: 11px;
+                        }
+    
+                    }
+                    .awe-f-b-line{
+                        display: flex;
+                        justify-content: center;
+                        width: 500px;
+                        height: 2px;
+                        background-color: white;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        .small-line{
+                            width: 50px;
+                            height: 2px;
+                            background-color: blue;
+    
+                        }
+                    }
+                    .awe-f-content{
+                        color: #7C7885;
+                        font-size: 16px;
+                        line-height: 1.5;
+    
+                    }
+                }
+            }
+        }
+    }
