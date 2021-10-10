@@ -1041,7 +1041,7 @@ a {
           justify-content: center;
   width: inherit;
   height: 2px;
-  background-color: white;
+  background-color: #F9F9FB;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -1556,5 +1556,18 @@ a {
 .component-item .item-icon {
   color: blue;
   margin-right: 40px;
+}
+
+.latest-blog-component {
+  width: 350px;
+  height: 529px;
+  background-color: white;
+}
+
+.latest-blog-component .blog-img img {
+  width: 350px;
+  height: 233px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 /*# sourceMappingURL=style.css.map */
