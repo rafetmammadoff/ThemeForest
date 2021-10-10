@@ -1,0 +1,29 @@
+.component-item{
+    width: 540px;
+    height: 84px;
+    box-shadow: 0 0px 8px -1px rgba(0, 0,  0 , 0.1%);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .item-text{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;
+    span{
+        margin-right: 15px;
+
+    }
+    p{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    }
+    .item-icon{
+        color: blue;
+        margin-right: 40px;
+    }
+
+}

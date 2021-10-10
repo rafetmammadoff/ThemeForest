@@ -962,7 +962,7 @@ a {
           justify-content: center;
   width: inherit;
   height: 2px;
-  background-color: #F9F9FB;
+  background-color: white;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -974,6 +974,85 @@ a {
 }
 
 #faq .container .awe-f-header .awe-f-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #7C7885;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#faq .container .faq-components {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+#latest-blog {
+  background-color: #F9F9FB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#latest-blog .container .awe-f-header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#latest-blog .container .awe-f-header .awe-f-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+#latest-blog .container .awe-f-header .awe-f-head span {
+  color: #5268f2;
+  margin-left: 11px;
+}
+
+#latest-blog .container .awe-f-header .awe-f-b-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: inherit;
+  height: 2px;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#latest-blog .container .awe-f-header .awe-f-b-line .small-line {
+  width: 50px;
+  height: 2px;
+  background-color: blue;
+}
+
+#latest-blog .container .awe-f-header .awe-f-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1433,5 +1512,49 @@ a {
 .team-component .blog-img-text .web-icons .icon .big-round .small-round:hover {
   background-color: blue;
   color: white;
+}
+
+.component-item {
+  width: 540px;
+  height: 84px;
+  -webkit-box-shadow: 0 0px 8px -1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0px 8px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.component-item .item-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 25px;
+}
+
+.component-item .item-text span {
+  margin-right: 15px;
+}
+
+.component-item .item-text p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.component-item .item-icon {
+  color: blue;
+  margin-right: 40px;
 }
 /*# sourceMappingURL=style.css.map */
