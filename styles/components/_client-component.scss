@@ -2,8 +2,9 @@
     .awe-f-blog{
         width: 350px;
         height: 423px;
-        box-shadow: 0 10px 10px -1px rgba(0, 0,  0 , 0.1%);
+        
         display: flex;
+        background-color: white;
         
         justify-content: center;
         .blog-img-text{
@@ -37,7 +38,12 @@
                 border-radius: 50%;
                 
                     
-                    .icon{padding: 0;
+                    .icon{
+                        img{
+                            width: inherit;
+                            height: inherit;
+                            border-radius: 50%;
+                        }
     
                     }
                 }

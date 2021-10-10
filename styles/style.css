@@ -745,11 +745,10 @@ a {
 .client-blogs .awe-f-blog {
   width: 350px;
   height: 423px;
-  -webkit-box-shadow: 0 10px 10px -1px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 10px 10px -1px rgba(0, 0, 0, 0.1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background-color: white;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -797,8 +796,10 @@ a {
   border-radius: 50%;
 }
 
-.client-blogs .awe-f-blog .blog-img-text .blog-img .big-div .small-div .icon {
-  padding: 0;
+.client-blogs .awe-f-blog .blog-img-text .blog-img .big-div .small-div .icon img {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
 }
 
 .client-blogs .awe-f-blog .blog-img-text .blog-head {
