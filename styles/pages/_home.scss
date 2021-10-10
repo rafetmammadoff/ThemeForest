@@ -496,3 +496,197 @@
 
         }
     }
+    #down-our-app{
+        margin-top: 100px;
+        height: 439px;
+        background-image: url(../../img/download-app-bg.png);
+        background-position: center;
+        background-size: cover;
+        height: 439px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 1;
+        .layer{
+            background-color: #5268F2;
+            opacity: 0.8;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 2;
+        }
+            .text-buttons{
+                z-index: 3;
+                .text{
+                    margin-bottom: 60px;
+                   
+                    .text-head{
+                        font-size: 36px;
+                        color: #FFFFFF;
+                        font-weight: 700;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-bottom: 15px;
+
+                    }
+                    .text-content{
+                        font-size: 16px;
+                        color: white;
+                        opacity: 0.75;
+
+                    }
+                }
+                .our-app-buttons{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .our-app-button{
+                        .gog-play{
+                            width: 167px;
+                            height: 58px;
+                            background-color: transparent;
+                            border-radius: 50px;
+                            border: 1px solid #FFF;
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 500;
+                            margin-right: 30px;
+                            cursor: pointer;
+                            text-transform: capitalize;
+    
+                            transition: all 0.5s ease;
+                        }
+                        .gog-play:hover{
+                            background-color: #FFF;
+                            color: black;
+                        }
+                        .app-store{
+                            width: 147px;
+                            height: 58px;
+                            background-color: #FFF;
+                            border-radius: 50px;
+                            border: 1px solid #FFF;
+                            color: black;
+                            font-size: 16px;
+                            font-weight: 600;
+                            cursor: pointer;
+                            text-transform: capitalize;
+    
+                            transition: all 0.5s ease;
+                            
+                        }
+                        .app-store:hover{
+                            background-color: transparent;
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+    }
+    #meet-our-team{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F9F9FB;
+        .container{
+            .awe-f-header{
+                margin-top: 100px;
+                margin-bottom: 50px;
+                
+                .awe-f-head{
+                    display: flex;
+                    justify-content: center;
+                    font-size: 36px;
+                    font-weight: bolder;
+                  
+                    span{
+                        color: #5268f2;
+                        margin-left: 11px;
+                    }
+
+                }
+                .awe-f-b-line{
+                    display: flex;
+                    justify-content: center;
+                    width: inherit;
+                    height: 2px;
+                    background-color: #F9F9FB;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    .small-line{
+                        width: 50px;
+                        height: 2px;
+                        background-color: blue;
+
+                    }
+                }
+                .awe-f-content{
+                    display: flex;
+                    justify-content: center;
+                    color: #7C7885;
+                    font-size: 16px;
+                    line-height: 1.5;
+
+                }
+            }
+            .team-blogs{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 150px;
+            }
+
+        }
+    }
+    #faq{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container{
+            .awe-f-header{
+                margin-top: 100px;
+                margin-bottom: 50px;
+                
+                .awe-f-head{
+                    display: flex;
+                    justify-content: center;
+                    font-size: 36px;
+                    font-weight: bolder;
+                  
+                    span{
+                        color: #5268f2;
+                        margin-left: 11px;
+                    }
+
+                }
+                .awe-f-b-line{
+                    display: flex;
+                    justify-content: center;
+                    width: inherit;
+                    height: 2px;
+                    background-color: #F9F9FB;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    .small-line{
+                        width: 50px;
+                        height: 2px;
+                        background-color: blue;
+
+                    }
+                }
+                .awe-f-content{
+                    display: flex;
+                    justify-content: center;
+                    color: #7C7885;
+                    font-size: 16px;
+                    line-height: 1.5;
+
+                }
+            }
+            
+        }
+    }

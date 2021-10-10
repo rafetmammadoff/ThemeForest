@@ -727,6 +727,264 @@ a {
   line-height: 1.5;
 }
 
+#down-our-app {
+  margin-top: 100px;
+  height: 439px;
+  background-image: url(../../img/download-app-bg.png);
+  background-position: center;
+  background-size: cover;
+  height: 439px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+#down-our-app .layer {
+  background-color: #5268F2;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+#down-our-app .text-buttons {
+  z-index: 3;
+}
+
+#down-our-app .text-buttons .text {
+  margin-bottom: 60px;
+}
+
+#down-our-app .text-buttons .text .text-head {
+  font-size: 36px;
+  color: #FFFFFF;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 15px;
+}
+
+#down-our-app .text-buttons .text .text-content {
+  font-size: 16px;
+  color: white;
+  opacity: 0.75;
+}
+
+#down-our-app .text-buttons .our-app-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#down-our-app .text-buttons .our-app-buttons .our-app-button .gog-play {
+  width: 167px;
+  height: 58px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #FFF;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 30px;
+  cursor: pointer;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#down-our-app .text-buttons .our-app-buttons .our-app-button .gog-play:hover {
+  background-color: #FFF;
+  color: black;
+}
+
+#down-our-app .text-buttons .our-app-buttons .our-app-button .app-store {
+  width: 147px;
+  height: 58px;
+  background-color: #FFF;
+  border-radius: 50px;
+  border: 1px solid #FFF;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#down-our-app .text-buttons .our-app-buttons .our-app-button .app-store:hover {
+  background-color: transparent;
+  color: #FFF;
+}
+
+#meet-our-team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F9F9FB;
+}
+
+#meet-our-team .container .awe-f-header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#meet-our-team .container .awe-f-header .awe-f-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+#meet-our-team .container .awe-f-header .awe-f-head span {
+  color: #5268f2;
+  margin-left: 11px;
+}
+
+#meet-our-team .container .awe-f-header .awe-f-b-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: inherit;
+  height: 2px;
+  background-color: #F9F9FB;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#meet-our-team .container .awe-f-header .awe-f-b-line .small-line {
+  width: 50px;
+  height: 2px;
+  background-color: blue;
+}
+
+#meet-our-team .container .awe-f-header .awe-f-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #7C7885;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#meet-our-team .container .team-blogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+#faq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#faq .container .awe-f-header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#faq .container .awe-f-header .awe-f-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+#faq .container .awe-f-header .awe-f-head span {
+  color: #5268f2;
+  margin-left: 11px;
+}
+
+#faq .container .awe-f-header .awe-f-b-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: inherit;
+  height: 2px;
+  background-color: #F9F9FB;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#faq .container .awe-f-header .awe-f-b-line .small-line {
+  width: 50px;
+  height: 2px;
+  background-color: blue;
+}
+
+#faq .container .awe-f-header .awe-f-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #7C7885;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .awe-f-blog {
   width: 350px;
   height: 423px;
@@ -1118,5 +1376,62 @@ a {
   color: #FFF;
   font-size: 16px;
   cursor: pointer;
+}
+
+.team-component {
+  width: 350px;
+  height: 388px;
+}
+
+.team-component .blog-img-text .blog-head {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.team-component .blog-img-text .web-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 190px;
+  margin-top: 30px;
+}
+
+.team-component .blog-img-text .web-icons .icon .big-round {
+  width: 42px;
+  height: 42px;
+  padding: 5px;
+  border-radius: 50px;
+  border: 2px dashed #edeffe;
+  background-color: transparent;
+}
+
+.team-component .blog-img-text .web-icons .icon .big-round .small-round {
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+  border: none;
+  background-color: #edeffe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #5268F2;
+  font-size: 14px;
+}
+
+.team-component .blog-img-text .web-icons .icon .big-round .small-round:hover {
+  background-color: blue;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

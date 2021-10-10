@@ -1,0 +1,45 @@
+.team-component{
+    width: 350px;
+    height: 388px;
+    .blog-img-text{
+        .blog-head{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .web-icons{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 190px;
+            margin-top: 30px;
+            .icon{
+                .big-round{
+                    width: 42px;
+                    height: 42px;
+                    padding: 5px;
+                    border-radius: 50px;
+                    border: 2px dashed #edeffe;
+                    background-color: transparent;
+                    .small-round{
+                        width: 42px;
+                    height: 42px;
+                    
+                    border-radius: 50px;
+                    border:none;
+                    background-color: #edeffe;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #5268F2;
+                    font-size: 14px;
+
+                    }
+                    .small-round:hover{
+                        background-color: blue;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
