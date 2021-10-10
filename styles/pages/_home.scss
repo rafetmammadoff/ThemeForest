@@ -440,6 +440,59 @@
 
                 }
             }
+            .client-blogs{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 150px;
+            }
+
+        }
+    }
+    #our-pricing{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .container{
+            .awe-f-header{
+                margin-bottom: 50px;
+                
+                .awe-f-head{
+                    display: flex;
+                    justify-content: center;
+                    font-size: 36px;
+                    font-weight: bolder;
+                  
+                    span{
+                        color: #5268f2;
+                        margin-left: 11px;
+                    }
+
+                }
+                .awe-f-b-line{
+                    display: flex;
+                    justify-content: center;
+                    width: inherit;
+                    height: 2px;
+                    background-color: white;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    .small-line{
+                        width: 50px;
+                        height: 2px;
+                        background-color: blue;
+
+                    }
+                }
+                .awe-f-content{
+                    display: flex;
+                    justify-content: center;
+                    color: #7C7885;
+                    font-size: 16px;
+                    line-height: 1.5;
+
+                }
+            }
 
         }
     }

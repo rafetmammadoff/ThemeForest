@@ -650,6 +650,83 @@ a {
   line-height: 1.5;
 }
 
+#client .container .client-blogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+#our-pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#our-pricing .container .awe-f-header {
+  margin-bottom: 50px;
+}
+
+#our-pricing .container .awe-f-header .awe-f-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+#our-pricing .container .awe-f-header .awe-f-head span {
+  color: #5268f2;
+  margin-left: 11px;
+}
+
+#our-pricing .container .awe-f-header .awe-f-b-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: inherit;
+  height: 2px;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#our-pricing .container .awe-f-header .awe-f-b-line .small-line {
+  width: 50px;
+  height: 2px;
+  background-color: blue;
+}
+
+#our-pricing .container .awe-f-header .awe-f-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #7C7885;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .awe-f-blog {
   width: 350px;
   height: 423px;
@@ -742,21 +819,25 @@ a {
   font-size: 17px;
 }
 
-.client-blogs .awe-f-blog {
+.awe-f-blog {
   width: 350px;
-  height: 423px;
+  height: 508px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: white;
+  justify-content: center;
 }
 
-.client-blogs .awe-f-blog .blog-img-text .blog-img {
+.awe-f-blog .blog-img-text .blog-img {
   margin-bottom: 35px;
-  margin-top: 75px;
+  margin-top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -768,7 +849,7 @@ a {
           justify-content: center;
 }
 
-.client-blogs .awe-f-blog .blog-img-text .blog-img .big-div {
+.awe-f-blog .blog-img-text .blog-img .big-div {
   width: 100px;
   height: 100px;
   padding: 15px;
@@ -778,7 +859,7 @@ a {
   display: inline-block;
 }
 
-.client-blogs .awe-f-blog .blog-img-text .blog-img .big-div .small-div {
+.awe-f-blog .blog-img-text .blog-img .big-div .small-div {
   background-color: #edeffe;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -796,13 +877,13 @@ a {
   border-radius: 50%;
 }
 
-.client-blogs .awe-f-blog .blog-img-text .blog-img .big-div .small-div .icon img {
+.awe-f-blog .blog-img-text .blog-img .big-div .small-div .icon img {
   width: inherit;
   height: inherit;
   border-radius: 50%;
 }
 
-.client-blogs .awe-f-blog .blog-img-text .blog-head {
+.awe-f-blog .blog-img-text .blog-head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -818,7 +899,44 @@ a {
   margin-bottom: 15px;
 }
 
-.client-blogs .awe-f-blog .blog-img-text .blog-content {
+.awe-f-blog .blog-img-text .client-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.awe-f-blog .blog-img-text .client-style span {
+  font-size: 15px;
+  color: #5268F2;
+  font-weight: 600;
+}
+
+.awe-f-blog .blog-img-text .raiting {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.awe-f-blog .blog-img-text .raiting i {
+  margin-right: 5px;
+  color: orange;
+}
+
+.awe-f-blog .blog-img-text .blog-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -833,5 +951,172 @@ a {
   width: 290px;
   font-weight: 500;
   font-size: 17px;
+}
+
+.pricing-blogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pricing-blogs .awe-f-blog {
+  width: 350px;
+  height: 720px;
+  -webkit-box-shadow: 0 10px 10px -1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 10px -1px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .blog-img {
+  margin-bottom: 30;
+  margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .blog-img .big-div {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px dashed #edeffe;
+  display: inline-block;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .blog-img .big-div .small-div {
+  background-color: #edeffe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  color: #5268F2;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .blog-img .big-div .small-div .icon {
+  padding: 0;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .blog-h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .blog-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .blog-foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #5268F2;
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .li {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .li .li-i {
+  margin-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .li .li-i i {
+  color: #5268F2;
+  margin-right: 8px;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .li .li-i span {
+  color: #7C7885;
+  font-size: 16;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .order-now .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 158px;
+  height: 58px;
+  border-radius: 500px;
+  background-color: #5268F2;
+  font-weight: 500;
+  color: #FFF;
+  font-size: 16px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

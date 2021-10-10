@@ -1,0 +1,119 @@
+.pricing-blogs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .awe-f-blog{
+        width: 350px;
+        height: 720px;
+        box-shadow: 0 10px 10px -1px rgba(0, 0,  0 , 0.1%);
+        display: flex;
+        
+        justify-content: center;
+        .blog-img-text{
+            
+            
+           .blog-img{
+               margin-bottom: 30;
+               margin-top: 0;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+            .big-div{
+                width: 100px;
+                height: 100px;
+                padding: 15px;
+                border-radius: 50%;
+                background-color: transparent;
+                border: 2px dashed #edeffe;
+                display: inline-block;
+                .small-div{
+                    background-color: #edeffe;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 40px;
+                    color: #5268F2;
+    
+                    width: 100px;
+                height: 100px;
+                
+                border-radius: 50%;
+                
+                    
+                    .icon{padding: 0;
+    
+                    }
+                }
+            }
+           }
+           .blog-h1{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               font-size: 50px;
+               font-weight: 700;
+               line-height: 1.4;
+               margin-bottom: 10px;
+           }
+           .blog-head{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               font-size: 18px;
+               font-weight: 600;
+               line-height: 1.4;
+               margin-bottom: 5px;
+
+           }
+           .blog-foot{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               color: #5268F2;
+               line-height: 1.8;
+               
+               font-size: 16px;
+               margin-bottom: 30px;
+               
+
+           }
+           .li{
+               display: block;
+
+               .li-i{
+                   margin-bottom: 15px;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                  i{
+                      color: #5268F2;
+                      margin-right: 8px;
+                  }
+                  span{
+                      color: #7C7885;
+                      font-size: 16;
+                      
+                  }
+               }
+               margin-bottom: 40px;
+           }
+           .order-now{
+            .button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 158px;
+                height: 58px;
+                border-radius: 500px;
+                background-color: #5268F2;
+                font-weight: 500;
+                color: #FFF;
+                font-size: 16px;
+                cursor: pointer;
+
+            }
+
+           }
+        }
+    }
+}
