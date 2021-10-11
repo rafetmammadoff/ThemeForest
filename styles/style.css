@@ -1250,286 +1250,6 @@ a {
   margin-bottom: 150px;
 }
 
-#contact-us {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 100px;
-}
-
-#contact-us .container .awe-f-header {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
-#contact-us .container .awe-f-header .awe-f-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 36px;
-  font-weight: bolder;
-}
-
-#contact-us .container .awe-f-header .awe-f-head span {
-  color: #5268f2;
-  margin-left: 11px;
-}
-
-#contact-us .container .awe-f-header .awe-f-b-line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: inherit;
-  height: 2px;
-  background-color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#contact-us .container .awe-f-header .awe-f-b-line .small-line {
-  width: 50px;
-  height: 2px;
-  background-color: blue;
-}
-
-#contact-us .container .awe-f-header .awe-f-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #7C7885;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-#contact-us .container .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 610px;
-}
-
-#contact-us .container .row .col-6 {
-  width: 49%;
-  height: 100%;
-  overflow: hidden;
-}
-
-#contact-us .container .row .col-6 .google-map {
-  height: 610px;
-}
-
-#contact-us .container .row .col-6 .google-map .mapp {
-  min-height: 610px;
-}
-
-#contact-us .container .row .login .name-email-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 30px;
-}
-
-#contact-us .container .row .login .name-email-area .name {
-  position: relative;
-  width: 255px;
-  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-}
-
-#contact-us .container .row .login .name-email-area .name input {
-  width: 255px;
-  height: 60px;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  padding-left: 60px;
-  outline: none;
-}
-
-#contact-us .container .row .login .name-email-area .name i {
-  position: absolute;
-  left: 18px;
-  top: 22px;
-  color: blue;
-}
-
-#contact-us .container .row .login .your-phone {
-  margin-bottom: 30px;
-}
-
-#contact-us .container .row .login .your-phone .name {
-  position: relative;
-  width: 100%;
-  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-}
-
-#contact-us .container .row .login .your-phone .name input {
-  width: 100%;
-  height: 60px;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  padding-left: 60px;
-  outline: none;
-}
-
-#contact-us .container .row .login .your-phone .name i {
-  position: absolute;
-  left: 18px;
-  top: 22px;
-  color: blue;
-}
-
-#contact-us .container .row .login .log {
-  margin-bottom: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-#contact-us .container .row .login .log .enter-code {
-  position: relative;
-  width: 255px;
-  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-  z-index: 0;
-  border-radius: 8px;
-}
-
-#contact-us .container .row .login .log .enter-code input {
-  width: 255px;
-  height: 60px;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  padding-left: 90px;
-  outline: none;
-}
-
-#contact-us .container .row .login .log .enter-code span {
-  position: absolute;
-  color: white;
-  font-size: 16px;
-  top: 0;
-  height: 60px;
-  display: block;
-  width: 70px;
-  line-height: 60px;
-  background: #5268F2;
-  color: #fff;
-  font-weight: 500;
-  border-radius: 8px 0 0 8px;
-  text-align: center;
-}
-
-#contact-us .container .row .login .log .name {
-  position: relative;
-  width: 255px;
-  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-}
-
-#contact-us .container .row .login .log .name input {
-  width: 255px;
-  height: 60px;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  padding-left: 90px;
-  outline: none;
-}
-
-#contact-us .container .row .login .log .name i {
-  position: absolute;
-  left: 18px;
-  top: 22px;
-  color: blue;
-}
-
-#contact-us .container .row .login .your-message {
-  width: 540px;
-  height: 252px;
-  background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-  margin-bottom: 30px;
-}
-
-#contact-us .container .row .login .your-message i {
-  position: absolute;
-  top: 20px;
-  left: 22px;
-  color: blue;
-}
-
-#contact-us .container .row .login .your-message .text-area {
-  font-size: 16px;
-  width: 450px;
-  height: 216px;
-  border: none;
-  outline: none;
-}
-
-#contact-us .container .row .login .login-button button {
-  width: 189px;
-  height: 58px;
-  border-radius: 500px;
-  border: none;
-  background-color: #5268F2;
-  text-align: center;
-  color: white;
-  font-size: 16px;
-  font-weight: 500;
-}
-
 .awe-f-blog {
   width: 350px;
   height: 423px;
@@ -2154,5 +1874,289 @@ a {
 .latest-blog-component .blog-body .blog-text .blog-button:hover {
   background-color: #233fee;
   cursor: pointer;
+}
+
+#contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+
+#contact-us .container .awe-f-header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#contact-us .container .awe-f-header .awe-f-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+#contact-us .container .awe-f-header .awe-f-head span {
+  color: #5268f2;
+  margin-left: 11px;
+}
+
+#contact-us .container .awe-f-header .awe-f-b-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: inherit;
+  height: 2px;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#contact-us .container .awe-f-header .awe-f-b-line .small-line {
+  width: 50px;
+  height: 2px;
+  background-color: blue;
+}
+
+#contact-us .container .awe-f-header .awe-f-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #7C7885;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#contact-us .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 610px;
+}
+
+#contact-us .container .row .col-6 {
+  width: 49%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#contact-us .container .row .col-6 .google-map {
+  height: 610px;
+}
+
+#contact-us .container .row .col-6 .google-map .mapp {
+  min-height: 610px;
+}
+
+#contact-us .container .row .login .name-email-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+#contact-us .container .row .login .name-email-area .name {
+  position: relative;
+  width: 255px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
+          box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
+}
+
+#contact-us .container .row .login .name-email-area .name input {
+  width: 255px;
+  height: 60px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 60px;
+  outline: none;
+}
+
+#contact-us .container .row .login .name-email-area .name i {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  color: blue;
+}
+
+#contact-us .container .row .login .your-phone {
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+#contact-us .container .row .login .your-phone .name {
+  position: relative;
+  width: 100%;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
+          box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
+}
+
+#contact-us .container .row .login .your-phone .name input {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 60px;
+  outline: none;
+}
+
+#contact-us .container .row .login .your-phone .name i {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  color: blue;
+}
+
+#contact-us .container .row .login .log {
+  margin-left: 10px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#contact-us .container .row .login .log .enter-code {
+  position: relative;
+  width: 255px;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+  z-index: 0;
+  border-radius: 8px;
+}
+
+#contact-us .container .row .login .log .enter-code input {
+  width: 255px;
+  height: 60px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 90px;
+  outline: none;
+}
+
+#contact-us .container .row .login .log .enter-code span {
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  top: 0;
+  height: 60px;
+  display: block;
+  width: 70px;
+  line-height: 60px;
+  background: #5268F2;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px 0 0 8px;
+  text-align: center;
+}
+
+#contact-us .container .row .login .log .name {
+  position: relative;
+  width: 255px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
+          box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
+}
+
+#contact-us .container .row .login .log .name input {
+  width: 255px;
+  height: 60px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 90px;
+  outline: none;
+}
+
+#contact-us .container .row .login .log .name i {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  color: blue;
+}
+
+#contact-us .container .row .login .your-message {
+  margin-left: 10px;
+  width: 540px;
+  height: 252px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
+          box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
+  margin-bottom: 30px;
+}
+
+#contact-us .container .row .login .your-message i {
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  color: blue;
+}
+
+#contact-us .container .row .login .your-message .text-area {
+  font-size: 16px;
+  width: 450px;
+  height: 216px;
+  border: none;
+  outline: none;
+}
+
+#contact-us .container .row .login .login-button button {
+  width: 189px;
+  height: 58px;
+  border-radius: 500px;
+  border: none;
+  background-color: #5268F2;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */
