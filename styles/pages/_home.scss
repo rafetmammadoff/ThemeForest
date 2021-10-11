@@ -871,6 +871,7 @@
 
                     }
                     .log{
+                        margin-bottom: 30px;
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
@@ -938,8 +939,48 @@
                         }
 
                     }
+                    .your-message{
+                        width: 540px;
+                        height: 252px;
+                        background-color: white;
+                        display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            position: relative;
+                            box-shadow:3px 2px 8px 4px rgb(194 188 210 / 50%) !important;
+                            margin-bottom: 30px;
+                            i{
+                                position: absolute;
+                                top: 20px;
+                                left: 22px;
+                                color: blue;
+                            }
+                        .text-area{
+                            font-size: 16px;
+                            
+                            width: 450px;
+                            height: 216px;
+                            
+                            border: none;
+                            outline: none;
+                        }
+                    }
+                    .login-button{
+                        button{
+                            width: 189px;
+                            height: 58px;
+                            border-radius: 500px;
+                            border: none;
+                            background-color: #5268F2;text-align: center;
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 500;
+
+                        }
+                    }
                 }
             }
 
         }
     }
+    
