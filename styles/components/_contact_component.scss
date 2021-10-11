@@ -4,46 +4,7 @@
     justify-content: center;
     margin-bottom: 100px;
     .container{
-        .awe-f-header{
-            margin-top: 100px;
-            margin-bottom: 50px;
-            
-            .awe-f-head{
-                display: flex;
-                justify-content: center;
-                font-size: 36px;
-                font-weight: bolder;
-              
-                span{
-                    color: #5268f2;
-                    margin-left: 11px;
-                }
-
-            }
-            .awe-f-b-line{
-                display: flex;
-                justify-content: center;
-                width: inherit;
-                height: 2px;
-                background-color: white;
-                margin-top: 15px;
-                margin-bottom: 15px;
-                .small-line{
-                    width: 50px;
-                    height: 2px;
-                    background-color: blue;
-
-                }
-            }
-            .awe-f-content{
-                display: flex;
-                justify-content: center;
-                color: #7C7885;
-                font-size: 16px;
-                line-height: 1.5;
-
-            }
-        }
+        
         .row{
             display: flex;
             align-items: center;
@@ -68,9 +29,7 @@
                     margin-bottom: 30px;
                     margin-left: 10px;
                     .name{
-                        position: relative;
-                        width: 255px;
-                        box-shadow: 0 10px 20px 0 rgba(194 ,188, 210,  0.2%);
+                        
                         input{
                             width: 255px;
                             height: 60px;
@@ -95,9 +54,9 @@
                     margin-bottom: 30px;
                     margin-left: 10px;
                     .name{
-                        position: relative;
+                       
                         width: 100%;
-                        box-shadow: 0 10px 20px 0 rgba(194 ,188, 210,  0.2%);
+                        
                         input{
                             width: 100%;
                             height: 60px;
@@ -127,9 +86,7 @@
                     justify-content: space-between;
                     
                     .enter-code{
-                        position: relative;
-                        width: 255px;
-                        box-shadow: 0px 0px 3px 1px rgba(0, 0,  0 , 0.2%);
+                        
                         z-index: 0;
                         input{
                             width: 255px;
@@ -165,9 +122,7 @@
                         border-radius: 8px;
                     }
                     .name{
-                        position: relative;
-                        width: 255px;
-                        box-shadow: 0 10px 20px 0 rgba(194 ,188, 210,  0.2%);
+      
                         input{
                             width: 255px;
                             height: 60px;
@@ -197,8 +152,9 @@
                     display: flex;
                         align-items: center;
                         justify-content: center;
-                        position: relative;
                         box-shadow: 0 10px 20px 0 rgba(194 ,188, 210,  0.2%);
+                        position: relative;
+                        
                         margin-bottom: 30px;
                         i{
                             position: absolute;
@@ -233,4 +189,10 @@
         }
 
     }
+}
+
+.name{
+    position: relative;
+    width: 255px;
+    box-shadow: 0 10px 20px 0 rgba(194 ,188, 210,  0.2%);
 }

@@ -182,6 +182,14 @@ a {
   background: rgba(255, 255, 255, 0.05);
   font-size: 20px;
   margin-right: 15px;
+  cursor: pointer;
+}
+
+#footer .container .foot-component .about-item .item-text-icon .web-items .item:hover {
+  background-color: white;
+  color: blue;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
 }
 
 #footer .container .foot-component .about-item .item-text-icon .ul .li {
@@ -377,48 +385,6 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#awe-f .container .awesome-features .awe-f-header .awe-f-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 36px;
-  font-weight: bolder;
-}
-
-#awe-f .container .awesome-features .awe-f-header .awe-f-head span {
-  color: #5268f2;
-  margin-left: 11px;
-}
-
-#awe-f .container .awesome-features .awe-f-header .awe-f-b-line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 500px;
-  height: 2px;
-  background-color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#awe-f .container .awesome-features .awe-f-header .awe-f-b-line .small-line {
-  width: 50px;
-  height: 2px;
-  background-color: blue;
-}
-
-#awe-f .container .awesome-features .awe-f-header .awe-f-content {
-  color: #7C7885;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 #awe-f .container .awe-f-blogs {
@@ -660,58 +626,6 @@ a {
           justify-content: center;
 }
 
-#app-screenshoot .container .awe-f-header {
-  margin-bottom: 50px;
-}
-
-#app-screenshoot .container .awe-f-header .awe-f-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 36px;
-  font-weight: bolder;
-}
-
-#app-screenshoot .container .awe-f-header .awe-f-head span {
-  color: #5268f2;
-  margin-left: 11px;
-}
-
-#app-screenshoot .container .awe-f-header .awe-f-b-line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: inherit;
-  height: 2px;
-  background-color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#app-screenshoot .container .awe-f-header .awe-f-b-line .small-line {
-  width: 50px;
-  height: 2px;
-  background-color: blue;
-}
-
-#app-screenshoot .container .awe-f-header .awe-f-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #7C7885;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
 #app-screenshoot .container .screenshoot-images {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -766,63 +680,6 @@ a {
   margin-top: 110px;
 }
 
-#client .container .awe-f-header {
-  margin-bottom: 50px;
-}
-
-#client .container .awe-f-header .awe-f-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 36px;
-  font-weight: bolder;
-}
-
-#client .container .awe-f-header .awe-f-head span {
-  color: #5268f2;
-  margin-left: 11px;
-}
-
-#client .container .awe-f-header .awe-f-head .copy {
-  color: #000000;
-  margin-left: 11px;
-}
-
-#client .container .awe-f-header .awe-f-b-line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: inherit;
-  height: 2px;
-  background-color: #F9F9FB;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#client .container .awe-f-header .awe-f-b-line .small-line {
-  width: 50px;
-  height: 2px;
-  background-color: blue;
-}
-
-#client .container .awe-f-header .awe-f-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #7C7885;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
 #client .container .client-blogs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -846,58 +703,6 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#our-pricing .container .awe-f-header {
-  margin-bottom: 50px;
-}
-
-#our-pricing .container .awe-f-header .awe-f-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 36px;
-  font-weight: bolder;
-}
-
-#our-pricing .container .awe-f-header .awe-f-head span {
-  color: #5268f2;
-  margin-left: 11px;
-}
-
-#our-pricing .container .awe-f-header .awe-f-b-line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: inherit;
-  height: 2px;
-  background-color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#our-pricing .container .awe-f-header .awe-f-b-line .small-line {
-  width: 50px;
-  height: 2px;
-  background-color: blue;
-}
-
-#our-pricing .container .awe-f-header .awe-f-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #7C7885;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 #down-our-app {
@@ -1027,59 +832,6 @@ a {
   background-color: #F9F9FB;
 }
 
-#meet-our-team .container .awe-f-header {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
-#meet-our-team .container .awe-f-header .awe-f-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 36px;
-  font-weight: bolder;
-}
-
-#meet-our-team .container .awe-f-header .awe-f-head span {
-  color: #5268f2;
-  margin-left: 11px;
-}
-
-#meet-our-team .container .awe-f-header .awe-f-b-line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: inherit;
-  height: 2px;
-  background-color: #F9F9FB;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#meet-our-team .container .awe-f-header .awe-f-b-line .small-line {
-  width: 50px;
-  height: 2px;
-  background-color: blue;
-}
-
-#meet-our-team .container .awe-f-header .awe-f-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #7C7885;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
 #meet-our-team .container .team-blogs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1103,59 +855,6 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#faq .container .awe-f-header {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
-#faq .container .awe-f-header .awe-f-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 36px;
-  font-weight: bolder;
-}
-
-#faq .container .awe-f-header .awe-f-head span {
-  color: #5268f2;
-  margin-left: 11px;
-}
-
-#faq .container .awe-f-header .awe-f-b-line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: inherit;
-  height: 2px;
-  background-color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#faq .container .awe-f-header .awe-f-b-line .small-line {
-  width: 50px;
-  height: 2px;
-  background-color: blue;
-}
-
-#faq .container .awe-f-header .awe-f-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #7C7885;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 #faq .container .faq-components {
@@ -1182,59 +881,6 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#latest-blog .container .awe-f-header {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
-#latest-blog .container .awe-f-header .awe-f-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 36px;
-  font-weight: bolder;
-}
-
-#latest-blog .container .awe-f-header .awe-f-head span {
-  color: #5268f2;
-  margin-left: 11px;
-}
-
-#latest-blog .container .awe-f-header .awe-f-b-line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: inherit;
-  height: 2px;
-  background-color: #F9F9FB;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#latest-blog .container .awe-f-header .awe-f-b-line .small-line {
-  width: 50px;
-  height: 2px;
-  background-color: blue;
-}
-
-#latest-blog .container .awe-f-header .awe-f-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #7C7885;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 #latest-blog .container .latest-blogs {
@@ -1307,6 +953,10 @@ a {
 
 .awe-f-blog .blog-img-text .blog-img .big-div .small-div .icon {
   padding: 0;
+}
+
+.awe-f-blog .blog-img-text .blog-img .big-div:hover {
+  border: 2px dashed blue;
 }
 
 .awe-f-blog .blog-img-text .blog-head {
@@ -1700,6 +1350,10 @@ a {
   color: white;
 }
 
+.team-component .blog-img-text .web-icons .icon .big-round:hover {
+  border: 2px dashed blue;
+}
+
 .component-item {
   width: 540px;
   height: 84px;
@@ -1889,59 +1543,6 @@ a {
   margin-bottom: 100px;
 }
 
-#contact-us .container .awe-f-header {
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
-#contact-us .container .awe-f-header .awe-f-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 36px;
-  font-weight: bolder;
-}
-
-#contact-us .container .awe-f-header .awe-f-head span {
-  color: #5268f2;
-  margin-left: 11px;
-}
-
-#contact-us .container .awe-f-header .awe-f-b-line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: inherit;
-  height: 2px;
-  background-color: white;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#contact-us .container .awe-f-header .awe-f-b-line .small-line {
-  width: 50px;
-  height: 2px;
-  background-color: blue;
-}
-
-#contact-us .container .awe-f-header .awe-f-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #7C7885;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
 #contact-us .container .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1983,13 +1584,6 @@ a {
   margin-left: 10px;
 }
 
-#contact-us .container .row .login .name-email-area .name {
-  position: relative;
-  width: 255px;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
-          box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
-}
-
 #contact-us .container .row .login .name-email-area .name input {
   width: 255px;
   height: 60px;
@@ -2014,10 +1608,7 @@ a {
 }
 
 #contact-us .container .row .login .your-phone .name {
-  position: relative;
   width: 100%;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
-          box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
 }
 
 #contact-us .container .row .login .your-phone .name input {
@@ -2053,10 +1644,6 @@ a {
 }
 
 #contact-us .container .row .login .log .enter-code {
-  position: relative;
-  width: 255px;
-  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
   z-index: 0;
   border-radius: 8px;
 }
@@ -2086,13 +1673,6 @@ a {
   font-weight: 500;
   border-radius: 8px 0 0 8px;
   text-align: center;
-}
-
-#contact-us .container .row .login .log .name {
-  position: relative;
-  width: 255px;
-  -webkit-box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
-          box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
 }
 
 #contact-us .container .row .login .log .name input {
@@ -2127,9 +1707,9 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: relative;
   -webkit-box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
           box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
+  position: relative;
   margin-bottom: 30px;
 }
 
@@ -2158,5 +1738,69 @@ a {
   color: white;
   font-size: 16px;
   font-weight: 500;
+}
+
+.name {
+  position: relative;
+  width: 255px;
+  -webkit-box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
+          box-shadow: 0 10px 20px 0 rgba(194, 188, 210, 0.2);
+}
+
+.awe-f-header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.awe-f-header .awe-f-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.awe-f-header .awe-f-head span {
+  color: #5268f2;
+  margin-left: 11px;
+}
+
+.awe-f-header .awe-f-b-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: inherit;
+  height: 2px;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.awe-f-header .awe-f-b-line .small-line {
+  width: 50px;
+  height: 2px;
+  background-color: blue;
+}
+
+.awe-f-header .different-color {
+  background-color: #F9F9FB;
+}
+
+.awe-f-header .awe-f-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #7C7885;
+  font-size: 16px;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=style.css.map */

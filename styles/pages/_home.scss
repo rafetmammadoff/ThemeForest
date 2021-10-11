@@ -94,42 +94,7 @@
             align-items: center;
             justify-content: center;
             
-                .awe-f-header{
-                
-                    .awe-f-head{
-                        display: flex;
-                        justify-content: center;
-                        font-size: 36px;
-                        font-weight: bolder;
-                      
-                        span{
-                            color: #5268f2;
-                            margin-left: 11px;
-                        }
-    
-                    }
-                    .awe-f-b-line{
-                        display: flex;
-                        justify-content: center;
-                        width: 500px;
-                        height: 2px;
-                        background-color: white;
-                        margin-top: 15px;
-                        margin-bottom: 15px;
-                        .small-line{
-                            width: 50px;
-                            height: 2px;
-                            background-color: blue;
-    
-                        }
-                    }
-                    .awe-f-content{
-                        color: #7C7885;
-                        font-size: 16px;
-                        line-height: 1.5;
-    
-                    }
-                }
+               
             }
             .awe-f-blogs{
                 margin-top: 60px;
@@ -323,45 +288,7 @@
         align-items: center;
         justify-content: center;
         .container{
-            .awe-f-header{
-                margin-bottom: 50px;
-                
-                .awe-f-head{
-                    display: flex;
-                    justify-content: center;
-                    font-size: 36px;
-                    font-weight: bolder;
-                  
-                    span{
-                        color: #5268f2;
-                        margin-left: 11px;
-                    }
-
-                }
-                .awe-f-b-line{
-                    display: flex;
-                    justify-content: center;
-                    width: inherit;
-                    height: 2px;
-                    background-color: white;
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-                    .small-line{
-                        width: 50px;
-                        height: 2px;
-                        background-color: blue;
-
-                    }
-                }
-                .awe-f-content{
-                    display: flex;
-                    justify-content: center;
-                    color: #7C7885;
-                    font-size: 16px;
-                    line-height: 1.5;
-
-                }
-            }
+            
             .screenshoot-images{
                 display: flex;
                 align-items: center;
@@ -396,50 +323,7 @@
         background-color: #F9F9FB;
         margin-top: 110px;
         .container{
-            .awe-f-header{
-                margin-bottom: 50px;
-                
-                .awe-f-head{
-                    display: flex;
-                    justify-content: center;
-                    font-size: 36px;
-                    font-weight: bolder;
-                  
-                    span{
-                        color: #5268f2;
-                        margin-left: 11px;
-                    }
-                    .copy{
-                        color: #000000;
-                        margin-left: 11px;
-
-                    }
-
-                }
-                .awe-f-b-line{
-                    display: flex;
-                    justify-content: center;
-                    width: inherit;
-                    height: 2px;
-                    background-color: #F9F9FB;
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-                    .small-line{
-                        width: 50px;
-                        height: 2px;
-                        background-color: blue;
-
-                    }
-                }
-                .awe-f-content{
-                    display: flex;
-                    justify-content: center;
-                    color: #7C7885;
-                    font-size: 16px;
-                    line-height: 1.5;
-
-                }
-            }
+            
             .client-blogs{
                 display: flex;
                 align-items: center;
@@ -453,48 +337,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        .container{
-            .awe-f-header{
-                margin-bottom: 50px;
-                
-                .awe-f-head{
-                    display: flex;
-                    justify-content: center;
-                    font-size: 36px;
-                    font-weight: bolder;
-                  
-                    span{
-                        color: #5268f2;
-                        margin-left: 11px;
-                    }
-
-                }
-                .awe-f-b-line{
-                    display: flex;
-                    justify-content: center;
-                    width: inherit;
-                    height: 2px;
-                    background-color: white;
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-                    .small-line{
-                        width: 50px;
-                        height: 2px;
-                        background-color: blue;
-
-                    }
-                }
-                .awe-f-content{
-                    display: flex;
-                    justify-content: center;
-                    color: #7C7885;
-                    font-size: 16px;
-                    line-height: 1.5;
-
-                }
-            }
-
-        }
+        
     }
     #down-our-app{
         margin-top: 100px;
@@ -593,46 +436,7 @@
         justify-content: center;
         background-color: #F9F9FB;
         .container{
-            .awe-f-header{
-                margin-top: 100px;
-                margin-bottom: 50px;
-                
-                .awe-f-head{
-                    display: flex;
-                    justify-content: center;
-                    font-size: 36px;
-                    font-weight: bolder;
-                  
-                    span{
-                        color: #5268f2;
-                        margin-left: 11px;
-                    }
-
-                }
-                .awe-f-b-line{
-                    display: flex;
-                    justify-content: center;
-                    width: inherit;
-                    height: 2px;
-                    background-color: #F9F9FB;
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-                    .small-line{
-                        width: 50px;
-                        height: 2px;
-                        background-color: blue;
-
-                    }
-                }
-                .awe-f-content{
-                    display: flex;
-                    justify-content: center;
-                    color: #7C7885;
-                    font-size: 16px;
-                    line-height: 1.5;
-
-                }
-            }
+            
             .team-blogs{
                 display: flex;
                 align-items: center;
@@ -647,46 +451,7 @@
         align-items: center;
         justify-content: center;
         .container{
-            .awe-f-header{
-                margin-top: 100px;
-                margin-bottom: 50px;
-                
-                .awe-f-head{
-                    display: flex;
-                    justify-content: center;
-                    font-size: 36px;
-                    font-weight: bolder;
-                  
-                    span{
-                        color: #5268f2;
-                        margin-left: 11px;
-                    }
-
-                }
-                .awe-f-b-line{
-                    display: flex;
-                    justify-content: center;
-                    width: inherit;
-                    height: 2px;
-                    background-color: white;
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-                    .small-line{
-                        width: 50px;
-                        height: 2px;
-                        background-color: blue;
-
-                    }
-                }
-                .awe-f-content{
-                    display: flex;
-                    justify-content: center;
-                    color: #7C7885;
-                    font-size: 16px;
-                    line-height: 1.5;
-
-                }
-            }
+            
             .faq-components{
                 display: flex;
                 align-items: center;
@@ -702,46 +467,7 @@
         align-items: center;
         justify-content: center;
         .container{
-            .awe-f-header{
-                margin-top: 100px;
-                margin-bottom: 50px;
-                
-                .awe-f-head{
-                    display: flex;
-                    justify-content: center;
-                    font-size: 36px;
-                    font-weight: bolder;
-                  
-                    span{
-                        color: #5268f2;
-                        margin-left: 11px;
-                    }
-
-                }
-                .awe-f-b-line{
-                    display: flex;
-                    justify-content: center;
-                    width: inherit;
-                    height: 2px;
-                    background-color: #F9F9FB;
-                    margin-top: 15px;
-                    margin-bottom: 15px;
-                    .small-line{
-                        width: 50px;
-                        height: 2px;
-                        background-color: blue;
-
-                    }
-                }
-                .awe-f-content{
-                    display: flex;
-                    justify-content: center;
-                    color: #7C7885;
-                    font-size: 16px;
-                    line-height: 1.5;
-
-                }
-            }
+            
             .latest-blogs{
                 display: flex;
                 align-items: center;
