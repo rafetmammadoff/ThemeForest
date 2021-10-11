@@ -1,13 +1,111 @@
 .latest-blog-component{
     width: 350px;
-    height: 529px;
+    height: 490px;
     background-color: white;
     .blog-img{
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
+        border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            cursor: pointer;
+
         img{
             width: 350px;
             height: 233px;
             border-top-left-radius: 12px;
             border-top-right-radius: 12px;
+            transition: all 0.5s ease;
+
         }
+        img:hover{
+            transform: scale(1.03);
+        }
+    }
+    .blog-body{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .blog-text{
+            width: 85%;
+            height: 85%;
+            .blog-text-about{
+                display: flex;
+                align-items: center;
+
+                
+                .part-1{
+                    margin-right: 10px;
+
+                    font-size: 14px;
+                    color: blue;
+                    span{
+                        font-size: 14px;
+                        color: black;
+                        margin-left: 5px;
+                        font-weight: 500;
+                        cursor: pointer;
+                    }
+                    span:hover{
+                        color: blue;
+
+                    }
+                }
+                
+
+            }
+            .blog-text-head{
+                color: #292f36;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 1.5;
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+            .blog-text-head:hover{
+                color: blue;
+                cursor: pointer;
+
+            }
+            .blog-text-content{
+                font-size: 16px;
+                color: #7C7885;
+                font-weight: 500;
+                line-height:1.4;
+                margin-bottom: 15px;
+            }
+            .blog-button{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                width: 128px;
+                height: 35px;
+                font-size: 14px;
+                background-color: #5268F2;
+                border-radius: 500px;
+                transition: all 0.5s ease;
+                text-transform: capitalize;
+                
+                .button-text{
+                    font-size: 16;
+                font-weight: bold;
+                color: white;
+                i{
+                    margin-left: 4px;
+                }
+
+                }
+        
+            }
+            .blog-button:hover{
+                background-color: #233fee;
+                cursor: pointer;
+                
+
+            }
+        }
+        
     }
 }
