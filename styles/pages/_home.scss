@@ -756,6 +756,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-bottom: 700px;
         .container{
             .awe-f-header{
                 margin-top: 100px;
@@ -947,7 +948,7 @@
                             align-items: center;
                             justify-content: center;
                             position: relative;
-                            box-shadow:3px 2px 8px 4px rgb(194 188 210 / 50%) !important;
+                            box-shadow: 0px 0px 3px 1px rgba(0, 0,  0 , 0.2%);
                             margin-bottom: 30px;
                             i{
                                 position: absolute;
