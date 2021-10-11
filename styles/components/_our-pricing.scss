@@ -45,6 +45,10 @@
                     }
                 }
             }
+            .big-div:hover{
+                border: 2px dashed blue;
+                
+            }
            }
            .blog-h1{
                display: flex;
@@ -110,7 +114,13 @@
                 color: #FFF;
                 font-size: 16px;
                 cursor: pointer;
+                transition: 1s all ease;
 
+            }
+            .button:hover{
+                background-color: white;
+                color: blue;
+                border: 1px solid blue;
             }
 
            }

@@ -78,6 +78,8 @@ a {
           box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
   font-weight: 600;
   font-size: 15px;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
 }
 
 .header-head .down-app:hover {
@@ -519,6 +521,14 @@ a {
   color: #FFF;
   font-size: 16px;
   cursor: pointer;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+#about-up .container .text-image .text .button:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid #5268F2;
 }
 
 #new-features .img-text-features {
@@ -611,6 +621,14 @@ a {
   color: #FFF;
   font-size: 16px;
   cursor: pointer;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+#new-features .img-text-features .button:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid #5268F2;
 }
 
 #app-screenshoot {
@@ -664,6 +682,12 @@ a {
   font-size: 50px;
   color: white;
   height: 100%;
+}
+
+#watch-video .layer .play-icon a:hover {
+  font-size: 57px;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
 }
 
 #client {
@@ -957,6 +981,8 @@ a {
 
 .awe-f-blog .blog-img-text .blog-img .big-div:hover {
   border: 2px dashed blue;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
 }
 
 .awe-f-blog .blog-img-text .blog-head {
@@ -1197,6 +1223,10 @@ a {
   padding: 0;
 }
 
+.pricing-blogs .awe-f-blog .blog-img-text .blog-img .big-div:hover {
+  border: 2px dashed blue;
+}
+
 .pricing-blogs .awe-f-blog .blog-img-text .blog-h1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1291,6 +1321,14 @@ a {
   color: #FFF;
   font-size: 16px;
   cursor: pointer;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+}
+
+.pricing-blogs .awe-f-blog .blog-img-text .order-now .button:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
 }
 
 .team-component {
@@ -1348,10 +1386,14 @@ a {
 .team-component .blog-img-text .web-icons .icon .big-round .small-round:hover {
   background-color: blue;
   color: white;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
 }
 
 .team-component .blog-img-text .web-icons .icon .big-round:hover {
   border: 2px dashed blue;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
 }
 
 .component-item {
@@ -1738,6 +1780,15 @@ a {
   color: white;
   font-size: 16px;
   font-weight: 500;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+  cursor: pointer;
+}
+
+#contact-us .container .row .login .login-button .contact-button:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid #5268F2;
 }
 
 .name {

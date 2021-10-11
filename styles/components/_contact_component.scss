@@ -182,7 +182,14 @@
                         color: white;
                         font-size: 16px;
                         font-weight: 500;
+                        transition: 1s all ease;
+                        cursor: pointer;
 
+                    }
+                    .contact-button:hover{
+                        background-color: white;
+                        color: blue;
+                        border: 1px solid #5268F2;
                     }
                 }
             }

@@ -184,7 +184,13 @@
                         color: #FFF;
                         font-size: 16px;
                         cursor: pointer;
+                        transition: 1s all ease;
 
+                    }
+                    .button:hover{
+                        background-color: white;
+                    color: blue;
+                    border: 1px solid #5268F2;
                     }
                     
                         
@@ -277,7 +283,13 @@
                     color: #FFF;
                     font-size: 16px;
                     cursor: pointer;
+                    transition: 1s all ease;
 
+                }
+                .button:hover{
+                    background-color: white;
+                    color: blue;
+                    border: 1px solid #5268F2;
                 }
             }
         
@@ -313,6 +325,10 @@
                 font-size: 50px;
                 color: white;
                 height: 100%;
+            }
+            .play-icon a:hover{
+                font-size: 57px;
+                transition: 1s all ease;
             }
         }
     }

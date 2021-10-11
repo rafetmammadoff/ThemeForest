@@ -37,10 +37,12 @@
                     .small-round:hover{
                         background-color: blue;
                         color: white;
+                        transition: 1s all ease;
                     }
                 }
                 .big-round:hover{
                     border: 2px dashed blue;
+                    transition: 1s all ease;
                 }
             }
         }
