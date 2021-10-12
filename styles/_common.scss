@@ -12,3 +12,17 @@ body,*{
 a{
     text-decoration: none !important;
 }
+
+.owl-dots{
+    left: 520px;
+    
+    position: absolute;
+    bottom: -50px;
+    .owl-dot{
+        span{
+            width: 25px !important;
+            height: 7px !important;
+            background-color: #5268F2 !important;
+        }
+    }
+}
