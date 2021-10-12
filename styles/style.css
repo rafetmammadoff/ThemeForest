@@ -656,6 +656,11 @@ a {
           justify-content: space-between;
 }
 
+#app-screenshoot .container .screenshoot-images img {
+  width: 320px;
+  height: 610px;
+}
+
 #watch-video {
   height: 550px;
   background-image: url(../img/watch-video-bg.png);
