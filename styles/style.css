@@ -22,6 +22,12 @@ a {
 .owl-dots .owl-dot span {
   width: 25px !important;
   height: 7px !important;
+  background-color: #eee !important;
+}
+
+.owl-dots .active span {
+  width: 25px !important;
+  height: 7px !important;
   background-color: #5268F2 !important;
 }
 

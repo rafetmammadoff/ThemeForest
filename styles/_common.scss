@@ -22,7 +22,15 @@ a{
         span{
             width: 25px !important;
             height: 7px !important;
+            background-color: #eee !important;
+        }
+    }
+    .active{
+        span{
+            width: 25px !important;
+            height: 7px !important;
             background-color: #5268F2 !important;
+            
         }
     }
 }
